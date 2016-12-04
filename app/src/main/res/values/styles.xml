@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- movieitem style -->
+    <style name="movieItemStyle">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
+
+    <!-- title style -->
+    <style name="title">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- rating style -->
+    <style name = "rating">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- date style -->
+    <style name="date">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- description style -->
+    <style name="overview">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:layout_toRightOf">@id/middletext</item>
+    </style>
+
+    <style name="image">
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_width">110dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_gravity">center_vertical</item>
+
+
+    </style>
+
+</resources>

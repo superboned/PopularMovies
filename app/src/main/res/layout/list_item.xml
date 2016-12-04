@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_layout"
+    android:layout_height="fill_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        style="@style/movieItemStyle">
+
+        <ImageView
+            android:id="@+id/MovieImage"
+            style="@style/image"/>
+        <LinearLayout
+            android:id="@+id/middletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/MovieImage">
+            <TextView
+                android:id="@+id/MovieTitle"
+                style="@style/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/MovieRating"
+                style="@style/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/MovieDate"
+                style="@style/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/MovieOverview"
+            style="@style/overview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

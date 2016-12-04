@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+
+    <string name="settings_title">Settings</string>
+
+    <!-- Preferences Strings -->
+    <string name="sort_key">sortOrder</string>
+    <string name="sort_title">Sort Order</string>
+    <string name="sort_default_value">pop</string>
+    <string name="sort_summary">Select sorting preference: </string>
+
+    <string name="refresh_title">Refresh</string>
+
+</resources>
